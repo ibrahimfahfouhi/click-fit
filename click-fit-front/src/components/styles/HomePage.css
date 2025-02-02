@@ -1,0 +1,60 @@
+/* HomePage.css */
+.home-page {
+  background-image: url('https://img.freepik.com/premium-photo/contemporary-spotless-fitness-gym-center-interiorgenerative-ai_391052-10889.jpg?w=2000'); /* Chemin relatif vers l'image de fond */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffeb3b; /* Texte en blanc pour un bon contraste */
+  text-align: center;
+  padding: 2rem;
+}
+
+.fact-section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333; /* Texte sombre pour un bon contraste */
+}
+
+.upload-section {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: rgba(141, 102, 145, 0.8); /* Fond semi-transparent */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.upload-section h2 {
+  margin-bottom: 1rem;
+  color: #333; /* Texte sombre pour un bon contraste */
+}
+
+.upload-section input {
+  margin-bottom: 1rem;
+}
+
+.upload-section p {
+  margin-bottom: 1rem;
+  color: #333; /* Texte sombre pour un bon contraste */
+}
+
+.btn-yellow {
+  background-color: #2209e7; /* Fond jaune */
+  color: #333; /* Texte sombre */
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-yellow:hover {
+  background-color: #fdd835; /* Jaune plus foncé au survol */
+}

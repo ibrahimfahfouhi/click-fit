@@ -1,0 +1,87 @@
+/* Login.css */
+.login-page {
+  background-image: url('https://th.bing.com/th/id/R.306e674142eac3f9e42f606702926d23?rik=hq73DBit946%2few&riu=http%3a%2f%2fstatic.wixstatic.com%2fmedia%2febb861_2fd073a8f7834e398f6461e0629ee10f~mv2_d_6141_4098_s_4_2.jpg%2fv1%2ffill%2fw_981%2ch_655%2cal_c%2cq_85%2cusm_0.66_1.00_0.01%2febb861_2fd073a8f7834e398f6461e0629ee10f~mv2_d_6141_4098_s_4_2.jpg&ehk=Utfv%2b%2fx00%2bw2aI2QpVl61d9OwqywSNXRdpi6iQMN5%2bw%3d&risl=&pid=ImgRaw&r=0'); /* Chemin relatif vers l'image de fond */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: rgb(167, 144, 144); /* Fond semi-transparent */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn-login:hover {
+  background-color: #0056b3;
+}
+
+.popup {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.popup p {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.btn-signup {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-signup:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,45 @@
+/* Navbar.css */
+.navbar-custom {
+  background-color: #37123c; /* Couleur de fond */
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: white !important; /* Texte en blanc */
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  color: white !important; /* Texte en blanc */
+  display: flex;
+  align-items: center;
+}
+
+.nav-link:hover {
+  color: #ccb90c !important; /* Texte jaune au survol */
+}
+
+.nav-icon {
+  margin-right: 0.5rem; /* Espace entre l'icône et le texte */
+}
+
+.btn-yellow{
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  color: white !important; /* Texte en blanc */
+  display: flex;
+  align-items: center;
+}
+
+.btn-yellow:hover {
+  color: #ccb90c !important; /* Texte jaune au survol */
+}
