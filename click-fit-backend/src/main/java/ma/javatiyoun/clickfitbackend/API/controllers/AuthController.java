@@ -1,6 +1,7 @@
 package ma.javatiyoun.clickfitbackend.API.controllers;
 
 import ma.javatiyoun.clickfitbackend.Domain.entities.User;
+import ma.javatiyoun.clickfitbackend.Domain.models.AuthenticationRequest;
 import ma.javatiyoun.clickfitbackend.Services.user.IUserServices;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,8 +21,8 @@ public class AuthController {
     }
 
     @PostMapping("/login")
-    public ResponseEntity<?> login(@RequestBody User user) {
-        return _userServices.login(user);
+    public ResponseEntity<?> login(@RequestBody AuthenticationRequest authenticationRequest) {
+        return _userServices.login(authenticationRequest);
     }
     @PostMapping("/signup")
     public ResponseEntity<?> signup(@RequestBody User user) {
